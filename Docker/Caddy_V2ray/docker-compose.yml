@@ -38,3 +38,4 @@ services:
     volumes:
       - ./.caddy:/root/.caddy
       - ./Caddyfile:/etc/Caddyfile
+      - ./www:/srv/www
